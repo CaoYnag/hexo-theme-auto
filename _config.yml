@@ -6,26 +6,16 @@ menu:
   Tags: /tags
   About: /about
 rss: /atom.xml
-banner: "images/banner_sky.jpg"
+banner: "images/banner_mountains.jpg"
 
 # Content
 excerpt_link: Read More
 fancybox: true
 
 # # Footer
-# copyright: |-
-#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
-#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
-
-# Footer
-copyright:
-# Need help choosing? Please see...
-# https://creativecommons.org/choose/
-# https://choosealicense.com/
-# You can use html like below...
-# copyright: |-
-#   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
-#   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
+copyright: |-
+   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></br>
+   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
 
 # Sidebar
 sidebar: right
@@ -59,13 +49,24 @@ fb_app_id:
 
 # valine comment system. https://valine.js.org
 valine:
-  enable: false # if you want use valine,please set this value is true
-  appId:  # leancloud application app id
-  appKey:  # leancloud application app key
+  enable: true # if you want use valine,please set this value is true
+  appId:  ELq6YoLEdIYWW6r5D9h9w0wO-gzGzoHsz # leancloud application app id
+  appKey: IKk1GUtDqU8rP1sUjm2L1YJQ # leancloud application app key
   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
   verify: false # valine verify code (true/false)
   pageSize: 10 # comment list page size
   avatar: mm # gravatar style https://valine.js.org/#/avatar
-  lang: zh-cn # i18n: zh-cn/en
-  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+  lang: en # i18n: zh-cn/en
+  placeholder: say sth? # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
+  
+# Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
+beian:
+  enable: true
+  icp: 陇ICP备2021001897号
+  # The digit in the num of gongan beian.
+  gongan_id:
+  # The full num of gongan beian.
+  gongan_num:
+  # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
+  gongan_icon_url: #http://www.beian.gov.cn/portal/download

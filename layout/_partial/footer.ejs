@@ -2,6 +2,15 @@
   <% if (theme.sidebar === 'bottom'){ %>
     <%- partial('_partial/sidebar') %>
   <% } %>
+
+  <% if (theme.beian.enable){ %>
+    <div id="beian" class="beian">
+        <a href="https://beian.miit.gov.cn"><%= theme.beian.icp %></a>
+      <% if (theme.beian.gongan_icon_url){ %>
+        <img src="<%- url_for(theme.beian.gongan_icon_url) %>">
+      <% } %>
+    </div>
+    <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; <%= date(new Date(), 'YYYY') %> By Autoload<br>
