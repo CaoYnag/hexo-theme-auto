@@ -59,11 +59,12 @@ valine:
   lang: en # i18n: zh-cn/en
   placeholder: say sth? # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
+  visitor: true
   
 # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
 beian:
-  enable: true
-  icp: 陇ICP备2021001897号
+  enable: false
+  icp: 陇ICP备2021001897号-1 #陇ICP备2021001897号
   # The digit in the num of gongan beian.
   gongan_id:
   # The full num of gongan beian.
