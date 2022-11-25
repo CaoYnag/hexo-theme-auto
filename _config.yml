@@ -59,7 +59,7 @@ valine:
   lang: en # i18n: zh-cn/en
   placeholder: say sth? # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
-  visitor: true
+  visitor: false
   
 # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
 beian:
